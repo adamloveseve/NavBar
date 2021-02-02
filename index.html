@@ -4,17 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
     <title>Navbar</title>
 </head>
 <body>
     <section class="navbar">
-        <div class="navbar-logo">Logo</div>
-        <div class="navbar-elemet">
-            <div class="navbar-element-center">Home</div>
-            <div class="navbar-element-center">Contact Us</div>
-            <div class="navbar-element-center">Careers</div>
+        <div class="navbar-logo"><i class="fas fa-anchor fa-2x"></i>
+            <!-- needed to add fa-lg/xs/2x to change the size of the font awesome icon -->
         </div>
-        <a href=#>Button</a>
+        <div class="navbar-elemet">
+            <a class="navbar-button" href="#">HOME</a>
+            <a class="navbar-button" href="#">CONTACT US</a>
+            <a class="navbar-button" href="#">CAREERS</a>
+            
+        </div>
         <div class="navbar-burger">Burger</div>
     </section>
     <script src="script.js"></script>

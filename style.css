@@ -2,18 +2,17 @@ body{
     background-color: pink;
     box-sizing: border-box;
 }
-a{
-    border:1px solid black;
-    border-radius: 5px;
-    text-decoration: none;
-    padding: 0px 5px;
-}
+
 .navbar {
     display:flex;
     justify-content: space-between;
     width:90vw;
+    height: 8vh;
     align-items: center;
     border: 1px solid black;
+}
+.navbar-logo {
+    padding-left: 30px;
 }
 .navbar-element {
     /* width:70vw; */
@@ -29,4 +28,12 @@ a{
     border: 1px solid black;
     padding: 0px 5px;
     
+}
+.navbar-button{
+    background-color:darkgray;
+    color:white;
+    border:1px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 5px 30px;
 }
