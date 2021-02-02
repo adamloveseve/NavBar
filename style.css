@@ -1,0 +1,32 @@
+body{
+    background-color: pink;
+    box-sizing: border-box;
+}
+a{
+    border:1px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 0px 5px;
+}
+.navbar {
+    display:flex;
+    justify-content: space-between;
+    width:90vw;
+    align-items: center;
+    border: 1px solid black;
+}
+.navbar-element {
+    /* width:70vw; */
+    /* border: 1px solid black; */
+    /* justify-content: space-around; */
+
+}
+.navbar-element-center {
+    background-color: aliceblue;
+    display: inline;
+    justify-content: space-around;
+    width:50vw;
+    border: 1px solid black;
+    padding: 0px 5px;
+    
+}
